@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css"> <!--CODIGO PARA LIGAR AL ARCHIVO STYLE.CSS OBLIGATORIO-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap" rel="stylesheet">
+    <!--FUENTE EXTERNA DE GOOGLE FONTS-->
+
+    <title>Document</title>
+
+    <!-- <style> 
+
+        .img_flor{
+            width: 100px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <header>
+        <img alt="logo-whatsapp" src="./assets/imagenes/logo.png" id="img-logo" class="imagen" />
+        <!--PARA IMAGENES ALT PARA EL LECTOR DE PANTALLA PARA PERSONAS NO VIDENTES, DEBE IR POR BUENA PRACTICA, SI LA IMAGEN SE ROMPE SE SABE QUE IBA AHI-->
+        <nav>
+            <ul>
+                <li> <a href="">Inicio</a> </li> <!-- LA a es para insertar una ubicacion deseada-->
+                <li> <a href="">Nosotros</a> </li>
+                <li> <a href="">Contactos</a> </li>
+                <li> <a href="">Servicios</a> </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+
+            <div>
+                <article class="articulos_web">
+
+
+                    <center>
+                        <h2> Noticias </h2>
+
+                        <img alt="articulo 1"
+                            src="https://w7.pngwing.com/pngs/400/755/png-transparent-wedding-invitation-watercolor-painting-flower-watercolor-flowers-multicolored-flowers-illustration-watercolor-leaves-flower-arranging-hand-thumbnail.png"
+                            class="img_flor" />
+                    </center>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia doloribus necessitatibus maxime
+                        consequuntur. Eos sint architecto tempora at, minus velit voluptatem excepturi culpa eius,
+                        placeat officiis deserunt, consectetur nulla corrupti.
+
+                    </p>
+                    <center>
+                        <a
+                            href="https://w7.pngwing.com/pngs/972/735/png-transparent-pinkpop-festival-watercolor-painting-texture-sky-blue-watercolor-graffiti-abstract-illustratrion-purple-blue-watercolor-leaves-thumbnail.png">Imagen</a>
+                    </center>
+
+                </article>
+
+                <article class="articulos_pos">
+                    <center>
+                        <h2> Flores </h2>
+                        <img alt="articulo 1"
+                            src="https://w7.pngwing.com/pngs/400/755/png-transparent-wedding-invitation-watercolor-painting-flower-watercolor-flowers-multicolored-flowers-illustration-watercolor-leaves-flower-arranging-hand-thumbnail.png"
+                            class="img_pos" />
+                    </center>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia doloribus necessitatibus maxime
+                        consequuntur. Eos sint architecto tempora at, minus velit voluptatem excepturi culpa eius,
+                        placeat officiis deserunt, consectetur nulla corrupti.
+
+                    </p>
+                    <a
+                        href="https://w7.pngwing.com/pngs/972/735/png-transparent-pinkpop-festival-watercolor-painting-texture-sky-blue-watercolor-graffiti-abstract-illustratrion-purple-blue-watercolor-leaves-thumbnail.png" class="link">Imagen</a>
+                </article>
+
+                <article class="articulos_pintura">
+                    <center>
+                        <h2> Pintura </h2>
+                        <img alt="articulo 3"
+                            src="https://w7.pngwing.com/pngs/114/579/png-transparent-pink-cross-stroke-ink-brush-pen-red-ink-brush-ink-leave-the-material-text-thumbnail.png" / class="img_pint">
+                    </center>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aut, iure eaque vitae repellat
+                        consequuntur recusandae nobis dolor doloribus libero dolorem sint soluta vel. Ut nihil impedit
+                        quas amet. Odio.
+                    </p>
+
+                    <form> <!--PARA GENERAR FORMULARIOS EN UNA PAGINA-->
+                        
+                        <span>Nombre</span> <!--PARA IDENTIFICAR LO QUE DEBE INGRESAR-->
+                        <label for="nombre">
+                            <input type="text" placeholder="Ingrese su nombre"
+                                required /><!--NO TIENE CIERRE SOLO ATRIBUTOS-->
+                        </label>
+                    
+                        
+                    <br>
+                    <label for="email">
+                            <span>Correo</span>
+                            <input type="email" placeholder="Ingrese correo electronico" />
+
+                        </label>
+                    </br>
+                        <label for="password">
+                            <span>Contrasena</span>
+                            <input type="password" placeholder="Ingrese contrasena" required />
+
+                        </label>
+                        
+                        <br>
+                        <label for="Date">
+                            <span>Calendario</span>
+                            <input type="datetime-local" /> <!--SELECCIONA DE MANERA LOCAL LOS DATOS -->
+
+                        </label>
+                        </br>
+                        <button type="submit">Enviar</button> <!--CREAR BOTONES-->
+                    </form>
+
+                    <label> <!--PARA PONER UN SELECTOR DE OPCIONES-->
+                        <select name="Cursos" id="">
+                            <option value="">Programacion de base de datos</option>
+                            <option value="">Sistemas Operativos</option>
+                            <option value="">Programacion Web</option>
+                            <option value="">Programacion Movil</option>
+
+            </div>
+
+
+            </select>
+
+            <input list="ventas"> <!--BUSCADOR DE UNA LISTA CREADA-->
+            <datalist id="ventas">
+                <option value="Programacion de base de datos"></option>
+                <option value="Sistemas Operativos"></option>
+                <option value="Programacion Web"></option>
+                <option value="Programacion Movil"></option>
+            </datalist>
+
+            </label>
+            </article>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
